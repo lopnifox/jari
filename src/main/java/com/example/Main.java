@@ -5,9 +5,10 @@ public class Main {
         System.out.println("Járművek feldolgozása...");
         Solution.readContent();
         // Solution.printVehicleList();
-        Solution.printPetrolDatas();
-        Solution.print1mcheaper();
-        Solution.printMoreThanOneYearPermission();
-        Solution.printHondaData();
+        // Solution.printPetrolDatas();
+        // Solution.print1mcheaper();
+        // Solution.printMoreThanOneYearPermission();
+        // Solution.printHondaData();
+        Solution.printCheapestPrice();
     }
 }
