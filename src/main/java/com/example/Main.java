@@ -3,7 +3,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Járművek feldolgozása...");
-        Solution.task01();
-        Solution.printList();
+        Solution.readContent();
+        Solution.printVehicleList();
     }
 }

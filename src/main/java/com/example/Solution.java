@@ -17,6 +17,12 @@ public class Solution {
     }
 
     public static void readContent() {
-        vehicleList
+        vehicleList = Storage.readFile();
+    }
+
+    public static void printVehicleList() {
+        vehicleList.forEach(vehicle -> {
+            System.out.println(vehicle.getBrand());
+        });
     }
 }
